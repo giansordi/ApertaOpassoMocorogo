@@ -1,0 +1,7 @@
+Escala de dia: 
+adestramento selva escala de 12 militares em 7 dias, com folga e restrição de 24 h, a cada dia são 3 militares de serviço.
+1 - escalar militar/escolher militar
+2 - o militar pode tirar o serviço?
+3 - o militar estava de serviço ontem?
+4 - o militar estava de serviço hoje?
+5 - o militar esta de serviço amanha
