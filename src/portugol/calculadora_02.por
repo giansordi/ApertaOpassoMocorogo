@@ -13,7 +13,7 @@ programa {
         escreva("Tabuada do ", numTab, ":\n")
         enquanto(contador <= 10){
             termo = termo + numTab
-            escreva(contador, "\t x \t, numTab,")
+            escreva(contador, "\t x \t, numTab, "" = ")
             contador = contador + 1
             
         }    
