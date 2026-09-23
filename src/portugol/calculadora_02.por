@@ -1,4 +1,4 @@
-programa{
+programa {
     funcao inicio(){
         inteiro numTab, contador, termo
 
@@ -10,10 +10,12 @@ programa{
         escreva("Qual tabuada deseja ver?")
         leia(numTab)
 
+        escreva("Tabuada do ", numTab, ":\n")
         enquanto(contador <= 10){
             termo = termo + numTab
+            escreva(contador, "\t x \t, numTab,")
             contador = contador + 1
-            escreva("R: ", termo)
+            
         }    
     }
 
