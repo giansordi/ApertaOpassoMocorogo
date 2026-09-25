@@ -7,7 +7,7 @@ programa{
         caracter sala
         cadeia nome 
         //Tipo lógico
-        logico curso
+        logico fezCursoSenai
 
         escreva("Nome completo: ")
         leia(nome)
@@ -15,17 +15,28 @@ programa{
         escreva("Qual sua sala? ")
         leia(sala)
 
-        escreva("Qual o seu curso? ")
-        leia(curso)
-
         escreva("Qual é sua matrícula? ")
         leia(matricula)
 
-        escreva("Já fez curso no Senai? ")
-        leia(curso)
+        escreva("Já fez curso no Senai? S/N ")
+        leia(fezCursoSenai)
+        fezCursoSenai = (fezCursoSenai == "S" ou fezCursoSenai == "s")
 
         escreva("De 0 a 10, que nota você dá para si mesmo?")
+        leia(entrevistanota)
+        
+        escreva("\n======= CRACHÁ =======\n")
+        escreva("Nome: ", nome, "\n")
+        escreva("Sala: ", sala, "\n")
+        escreva("Matrícula: ", matricula, "\n")
+        escreva("Fez curso no Senai? ", fezCursoSenai, "\n")
+        escreva("Nota da entrevista: ", entrevistanota, "\n")
 
-        entrevistanota = real == 0 a 10
+        se (fezCursoSenai){
+            escreva("\nParabéns por ter feito curso no Senai!")
+        } senao {
+            escreva("\nQue pena que você não fez curso no Senai!")
+        }
+        
     }
 }
